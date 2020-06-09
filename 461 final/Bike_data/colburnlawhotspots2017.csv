@@ -1,0 +1,36 @@
+﻿Rank,Zone Center Point,Coordinates,City,state,Crashes,Minor Injury,Serious Injury,BDI
+1,4th Ave & Pike St,"47.6102086,-122.3389004",Seattle,WA,54,43,2,193
+2,12th Ave & E Pike St,"47.6141018,-122.3190317",Seattle,WA,30,21,8,133
+3,2nd Ave & Columbia St,47.6037383!4d-122.333842,Seattle,WA,31,26,2,119
+4,Roosevelt Way NE & NE 42nd St,,Seattle,WA,26,23,0,95
+5,12th Ave,,Seattle,WA,22,19,0,79
+6,Dexter Ave N & Aloha St,,Seattle,WA,17,13,1,61
+7,5th Ave S & S Main St,,Seattle,WA,16,13,1,60
+8,E Magnolia St & Cornwall Ave,,Bellingham,WA,16,13,0,55
+9,Pine St & Summit Ave,,Seattle,WA,12,8,2,46
+10,E. Olive Way & E Denny Way,,Seattle,WA,10,8,1,39
+10,Pike St & Boren Ave,,Seattle,WA,10,6,2,38
+12,Eastlake Ave E & Fuhrman Ave E,,Seattle,WA,10,6,2,38
+12,Northwest Ave & Maplewood Ave,,Bellingham,WA,6,4,2,28
+14,S Dearborn St & 7th Ave S,,Seattle,WA,8,5,1,28
+15,Alaskan Way S & Marion St,,Seattle,WA,8,5,1,28
+16,NE Pacific St & University Way NE,,Seattle,WA,7,7,0,28
+17,N 34th Street & Stone Way N,,Seattle,WA,6,5,1,26
+17,W Main Ave & S Lincoln St,,Spokane,WA,6,5,1,26
+19,N 34th St & Wallingford Ave N,,Seattle,WA,7,6,0,25
+20,N 34th St & Fremont Ave N,,Seattle,WA,6,6,0,24
+20,Eastlake Ave E & E Hamlin St,,Seattle,WA,6,6,0,24
+22,NW Dayton Ave & NW 85th St,,Seattle,WA,5,4,1,22
+23,NE 45th St & 1st Ave NE,,Seattle,WA,6,5,0,21
+24,State Ave NE & East Bay Dr NE,,Olympia,WA,5,5,0,20
+24,12th Ave S & S Weller St,,Seattle,WA,5,5,0,20
+24,N 34th St & Aurora Bridge,,Seattle,WA,5,5,0,20
+24,Evergreen Way & 112th St SW,,Everett,WA,5,5,0,20
+28,Westlake Ave & Mercer St,,Seattle,WA,5,3,1,19
+29,Capitol Way SE & Legion Way SW,,Olympia,WA,7,4,0,19
+30,Valley Hwy S & W Meeker St,,Kent,WA,5,1,2,18
+31,4th Ave & Bell St,,Seattle,WA,6,4,0,18
+32,Pacific Ave SE & Ruddell Rd SE,,Lacey,WA,5,4,0,17
+32,8th Ave NW & NW 57th St,,Seattle,WA,5,4,0,17
+32,E Champion St & N Forest St,,Bellingham,WA,5,4,0,17
+35,Mercer St & Taylor Ave N,,Seattle,WA,5,3,0,14

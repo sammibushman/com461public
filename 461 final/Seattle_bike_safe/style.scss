@@ -1,0 +1,168 @@
+$top-offset: 0;
+$bp: 35rem;
+
+/* Links inside the navbar */
+/* Change background on mouse-over */
+.navbar {
+	overflow: fixed;
+  background-color: #0A090C;
+	position: fixed;
+	top: 0rem;
+  width: 100%;
+  z-index: 1;
+	a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+}
+
+#subhead {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center; 
+}
+
+section {
+  position: relative;
+}
+
+// .top {
+//   position: absolute;
+//   top: 0;
+// }
+
+
+body {
+  background-color: #F0EDEE;
+  margin: $top-offset auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+
+
+}
+
+#totalaccident {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.static-content{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: inherit;
+  font-size: 18px;
+}
+
+#author{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+h2, h3, h4 {
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 40rem;
+  
+  p {
+    font-family: Georgia;
+    font-size: 2rem;
+    line-height: 1.8;
+    min-height: 90vh; 
+    margin: 0;
+    text-align: center;
+    
+    &:not(:last-of-type) {
+     margin: 0 0 1rem;
+    }
+  }
+}
+
+figure {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: $top-offset;
+  z-index: -1;
+  
+  @media screen and (min-width: $bp) {
+    position: sticky;
+  }
+}
+
+.map {
+  align-content: center;
+}
+
+#wordcloud {
+  align-items: center;
+  
+  display: static;
+  height: 90vh;
+  margin: 0;
+  width: 120%;
+  justify-content: center;
+  top: $top-offset;
+  z-index: -1;
+}
+
+.map2 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: $top-offset;
+  z-index: -1;
+}
+
+#bikecount {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: $top-offset;
+  z-index: -1;
+}
+
+bottom {
+    position: fixed;
+    display: inline-block;
+}
+
+#footer {
+  font-size: 14px;
+  text-align: inherit;
+}
+

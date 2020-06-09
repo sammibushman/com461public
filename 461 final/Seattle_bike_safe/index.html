@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data journalism final</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css.map">
+
+    
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="#bythenumbers">By the numbers</a>
+    <a href="#mappingaccidents">Mapping Accidents</a>
+    <a href="#analyzingaccidents">Analyzing Accidents</a>
+    <a href="#infrastructure">Infrastructure</a>
+    <a href="#rulesnregulations"> Rules & Regulations</a>
+    <a href="#bikeshare">Bikeshare</a>
+    <a href="#LookingForward">Looking Foward</a>
+    <a href="#resources">Resources</a>
+  
+  </div>
+
+  <h1>Seattle has a storied history with bicyclists, will 20 new miles of pedestrian only roadways help? 
+  </h1>
+  <h4 id="subhead"><em>Streets permenantly closed to traffic in lieu of the coronavirus pandemic have drawn more people than ever to pedestrian centered activities, but accidents are still a problem.</em></h4>
+  <p id="author"> By: Sammi Bushman </p>
+
+  
+
+  <div class="static-content">
+    <p>Seattle's officials pledged major changes for cyclists this May, after the Coronavirus pandemic saw a 57% drop in vehicle traffic within city limits. In April, Seattle launched “Stay Healthy” streets, which made roadways with motorized vehicles car free. The closures have been such a success that 20 miles are now set to become permanent, after a 300% increase in bicycle traffic was noted after cars went away.
+      But for years, Seattle has been criticized that bike infrastructure development isn’t keeping up with the needs of cyclists. A 2017 report by the Washington State Department of Transportation found the number of pedestrian deaths including cyclists in Washington State nearly doubled over the previous decade.
+      </p>
+  </div>
+  
+  <section id="bythenumbers">
+    
+    <figure style= "background-color: #0A090C;">
+      <p></p>
+    </figure>
+    
+    <article class="top" style="color:white;" >
+      <p> Between 2004 and 2019, there were <strong>5,906</strong> bicycle-involved accidents in Seattle</p>
+      
+      <p> <strong>5, 210</strong> resulted in injury </p>
+      <p><strong>27</strong> were fatal</p>
+      
+      <p>While the city of Seattle is actively making changes to ensure safety for pedestrians and cyclists</p>
+      <p>Accident numbers have stagnated at rates inconsistant with population and popularity increase</p>
+      
+      <!-- d3 animation. Interactive but loads on page load -->
+<p id="totalaccident" >Total bike accidents in Seattle</p>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js'></script>
+  
+  <script  src="./script.js"></script>
+    </article>
+ 
+  <div class="static-content" style="background-color: #F0EDEE; color: black;" id="mappingaccidents">
+<h2>Mapping Accidents</h2>
+  
+    <p>Seattle experienced an <em>18% increase in bicycle traffic</em> in 2019 before the coronavirus pandemic saw widespread unemployment and reduced traffic. In the same year, two people died in bicycle accidents. In 2012, <a href="https://targetzero.com/">Seattle Adopted the Target Zero framework,</a> which aims to have zero traffic fatalities by 2030. A 2019 report indicated that despite legislation aimed at directing more money towards pedestrian improvement, trends were going the wrong way. </p>
+    <p>Seattle has identified high impact areas of the city streets that pose an increased risk to non-vehicles. The majority of incidents occur in these high impact zones. </p>
+    
+    <h4>2019 Target Zero identified accidents as they correspond to high risk areas: </h4>
+      
+    <!-- Target zero map -->
+  
+  <iframe class="map" src='https://api.mapbox.com/styles/v1/sammibushman/ckb32g1h20iwl1jqr2dtba93y.html?fresh=true&title=false&access_token=pk.eyJ1Ijoic2FtbWlidXNobWFuIiwiYSI6ImNrOXZxY2NsYjAxeDMzcHFqcjY2bXIwdnoifQ.r2kIPLFtr9df88tykYk19Q' height="500px" width="80%"></iframe>
+  <!-- Img legend because it's easier than javascript coding in theMapbox -->
+  <img src="imageassets/Screen Shot 2020-06-07 at 11.06.34 PM.png" alt="map legend" title="Map legend" class=legend width=100px height="100%">
+  </div>
+
+</section>
+  
+  <section id="analyzingaccidents">
+    
+    <figure style="background-color: #07393c;">
+      <p></p>
+    </figure>
+    
+    <article style="color: #F0EDEE;">
+      <p>Statewide, <strong>89%</strong> of fatal crashes and <strong>95%</strong> of serious injury crashes occur within a half-mile of a local destination.
+      </p>
+      
+      <p>Over half of all injuries have occurred during the day since 2004 <br>
+        And almost all involved cars
+        </p> 
+
+        <p>Accidents that resulted in injury by type:<img src="imageassets/wordcloud.svg" alt="Accident wordcloud" title="Wordcloud" id="wordcloud">  </p>   
+
+<p>Bike lanes and infrastructure can help, but is it enough?
+      </p>
+    
+    </article>
+    
+  </section>
+  
+  <!-- Break -->
+  <!-- Break -->
+
+  <div id="infrastructure" class="static-content" style="background-color: #F0EDEE; color: black;">
+    <h2>Infrastructure</h2>
+
+    <p>Seattle has seen an influx in transit oriented development associated with increased public transit availability, particularly the Light Rail. A 2019 Target Zero report recognized that quote,  <em>“In 52% of these pedestrian and bicyclist crossing fatalities and serious injuries, there were no stop signs or traffic signals requiring motorists to stop. This requires pedestrians and bicyclists to find a gap in the flow of passing drivers in order to cross.” 
+    </em></p>
+    <p>Seattle has planned additional bike lanes and infrastructure, including <a href="https://www.seattlebikeblog.com/2019/09/24/mayor-durkans-2020-21-budget-would-increase-bike-lane-vision-zero-northgate-bridge-funds/">$8.5 million in protected bike lanes by 2024,</a> which physically separate bicyclists from traffic. $31 Million is planned to go to Project Zero, with emphasis in expanding bike transit north, <a href="https://www.google.com/search?q=light+rail+northgate+opening&rlz=1C5CHFA_enUS886US891&oq=light+rail+northgate+opening&aqs=chrome..69i57j0l7.8072j0j7&sourceid=chrome&ie=UTF-8">the same direction in which new Northgate Link Light Rail is scheduled to open in 2021.</a></p>
+  <p>The Seattle Bike Advisory Board complained that the plan wasn’t comprehensive enough, telling Mayor Jenny Durkan <a href="https://www.seattlebikeblog.com/2019/05/14/extreme-disappointment-bike-advisory-board-letter-seeks-big-improvements-to-mayors-bike-plan/">in a statement</a> that proposed plans neglect South Seattle and marginalized communities.
+  </p>
+  <p>How the coronavirus affects bike budget remains to be seen.</p>
+
+  <h3>Crashes as they coorospond to existing bike infrastructure</h3>
+  </div>
+
+  <iframe class="map2" src="https://api.mapbox.com/styles/v1/sammibushman/ckb64q3go3fiz1imdh7bg80ou.html?fresh=truetitle=false&access_token=pk.eyJ1Ijoic2FtbWlidXNobWFuIiwiYSI6ImNrOXZxY2NsYjAxeDMzcHFqcjY2bXIwdnoifQ.r2kIPLFtr9df88tykYk19Q" alt="accidents overlayed with bike paths" title="Accidents overlayed with bike paths" width="70%" height="500px">
+  </iframe>
+
+  <section id="rulesnregulations">
+    
+    <figure style="background-color: #2C666E;">
+    </figure>
+    
+    <article style="color: #F0EDEE;">
+      <p>47.8% of all traffic fatalities involving bicyclists, the person biking was impaired. 
+      </p>
+      <p>Yet bicyclist citations are <a href= "https://public.tableau.com/profile/seattlemunicipalcourt#!/vizhome/SeattleBicycleInfractions/Bicycle">at an all time low.</a> In 2011, over 600 people were cited for not wearing a helmet. In 2019 that number was less than 30.
+      </p> 
+      <p>Washington has no state law mandating helmet use, but a number of counties including King, where Seattle is located, have adopted policies in addition to bike laws.</p>
+      <p>But the Seattle Bike Advisory Board <a href="https://www.seattlebikeblog.com/2019/05/14/extreme-disappointment-bike-advisory-board-letter-seeks-big-improvements-to-mayors-bike-plan/">told Seattle Mayor Jenny Durkan in 2019</a> that despite progress being made to help bicyclists, it still isn’t enough.
+      </p>     
+    </article>
+    </section>
+
+    <!-- Static Section -->
+    
+    <div id= "bikeshare" class="static-content" style="background-color: #F0EDEE; color: black;">
+<section >
+<h2>About Bikeshare</h2>
+
+
+ <p>In the past 10 years Seattle has seen at least four bike share services come and go. Docked bike share was proven to be a failure after Seattle saw a low return rate due to customers riding the bikes down hills and not bringing them back. Ofo, Spin, and Limebike were the first unlockable and mobile bikes that could be parked anywhere within city and company limits. None of the services required helmets, <a href="https://www.thestranger.com/slog/2019/11/27/42116565/no-seattle-should-not-enforce-helmet-laws">and helmet laws are rarely enforced.</a> Ofo and Spin left Seattle after trial period that saw Limebike surge due to its Electric fleet, but Limebike too has struggled financially in the city and <a href="https://www.seattletimes.com/seattle-news/transportation/lime-will-take-its-green-bikes-off-seattle-streets-until-at-least-spring/">announced plans to pull around 2000 bikes out of Seattle in late 2019.</a> Uber Bikes, known as “Jump,” remain in the city.</p>
+ <p> Incorrectly parked bikshare bikes, which can’t be locked like personal bikes, caused the Seattle Department of Transportation (SDOT) to build more than 1200 bicycle parking spots in 2019. </p> 
+ <p>Data showed a sharp increase in ridership justified the expense. </p>
+
+ <h3>In 2019 private group Colburn Law studied Seattle bicycle data and found <a href="https://www.colburnlaw.com/washington-bicycle-accident-hotspots/">Seattle had the most bike accidents of any Washington city</a></h3>
+ <h4>Below is a map showing identified bycicle hotspots. White lines are existing bicycle infrastructure and purple are proposed changes</h4>
+
+
+ <iframe class="map2" src='https://api.mapbox.com/styles/v1/sammibushman/ckb6qkemy49ry1io73kn0ad8e.html?fresh=true&title=false&access_token=pk.eyJ1Ijoic2FtbWlidXNobWFuIiwiYSI6ImNrOXZxY2NsYjAxeDMzcHFqcjY2bXIwdnoifQ.r2kIPLFtr9df88tykYk19Q' height="500px" width="80%"></iframe>
+
+    </section>
+    </div>
+    
+    <section id="LookingForward">
+    
+      <figure style="background-color: #90DDF0; ">
+      </figure>
+      
+      <article style="color: black;">
+        <p>Bicycle counters have aided local activists in getting a better understanding of what locals want, need, and what they can do to keep themselves safe while biking
+        </p>
+        
+        <p><strong>Always</strong> use bike lanes whenever possible</p>
+        
+        <p>Wear a helmet <br> have lights on at night <br> and signal when crossing intersections or streets.</p>
+      </article>
+    
+  </section>
+  
+  <!-- End of scollytelling -->
+
+  <div id="resources" class="static-content" style="background-color: #F0EDEE; color: black;">
+
+    <h2>Example: Bicycle counters show high traffic times around Seattle</h2>
+
+    <div><iframe id="bikecount" width="85%" title="Fremont (SB) bicycle count" height="646px" src="https://data.seattle.gov/w/aggm-esc4/2myu-6xk5?cur=JkuvegdA_y2&from=root" frameborder="0"scrolling="no"><a href="https://data.seattle.gov/Transportation/Fremont-SB-bicycle-count/aggm-esc4" title="Fremont (SB) bicycle count" target="_blank">Fremont (SB) bicycle count</a></iframe></div>
+    
+    <h3>Resources for bicyclists:</h3>
+    <h4>Had a minor bike accident? <a href= "https://www.seattle.gov/police/need-help/collision">Report it here</a></h4>
+    <h4><a href="https://www.seattlebikeblog.com/">Seattle Bike Blog</a> has up-to-date information about all bike goings-on in Seattle
+    </h4>
+    <h4><a href="https://www.cascade.org/"> Cascade Bicycle Club</a>has resources for bikers around the PNW</h4>
+     
+
+    </div>
+
+  </body>
+
+  <footer id= "footer">
+    <p>credits to: Beth Killory and Kavya Sukumar for endless coding tutorials. Visualizations provided by Mapbox. 
+      Data provided by WSDOT Crash data, City of Seattle open data portal, Colburn Law. 
+      Scrollytelling framework Penned by Elania Natario on Codepen. 
+      NOT for commercial use.
+      </p>
+  </footer>
+  

@@ -1,0 +1,74 @@
+section {
+  position: relative;
+}
+
+body {
+  background-color: #F0EDEE;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#author {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+article p {
+  font-family: Georgia;
+  font-size: 2rem;
+  line-height: 1.8;
+  min-height: 90vh;
+  margin: 0;
+  text-align: center;
+}
+
+article p:not(:last-of-type) {
+  margin: 0 0 1rem;
+}
+
+figure {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+@media screen and (min-width: 35rem) {
+  figure {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+bottom {
+  position: fixed;
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
